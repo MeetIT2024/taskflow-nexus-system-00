@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our RBAC system
+				company: {
+					DEFAULT: '#1e40af', // Blue for company roles
+					light: '#3b82f6',
+				},
+				dealer: {
+					DEFAULT: '#166534', // Green for dealer roles
+					light: '#22c55e',
+				},
+				admin: {
+					DEFAULT: '#7e22ce', // Purple for admin roles
+					light: '#a855f7',
 				}
 			},
 			borderRadius: {
